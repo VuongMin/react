@@ -1,0 +1,35 @@
+.shop-content { position: relative; }
+.text { position: absolute; top: 50%; left: 50%; background: rgba(255, 165, 0, 0.53); font-size: 2rem; text-transform: uppercase; padding: 15px 20px; transform: translate(-50%, -50%); color: rgb(0, 0, 0); cursor: pointer; border: 3px solid rgb(255, 255, 255); }
+.info-product .box-right { flex: 1 1 0%; }
+.info-product .box-right .price { color: var(--red_subtitle); font-size: 2.5rem; font-weight: 500; padding: 5px 0px; }
+.info-product .box-wapper-3-small img { margin: 0px 5px; opacity: 0.8; }
+.info-product .box-wapper-3-small img:hover { opacity: 1; border: 1px solid rgba(0, 0, 0, 0.16); border-radius: 5px; }
+.info-product .box-quatity { margin: 10px 0px; }
+.info-product .box-quatity label { color: var(--black_bg); }
+.info-product .box-wapper-3-small img:first-child { margin-left: 0px; }
+.info-product .box-quatity input[type="number"] { outline: none;,color: var(--black_bg); padding-left: 5px; }
+.info-product .add-cart-list { padding: 10px 0px; display: flex; flex-wrap: wrap; align-items: center; }
+.info-product .add-cart-list button { flex: 1 1 0%; margin: 0px 5px; cursor: pointer; }
+.info-product .add-cart-list button:first-child { margin-left: 0px; }
+.info-product button.add-cart.button.button-fullwidth { background: var(--black_bg); color: rgb(255, 255, 255); cursor: pointer; }
+.info-product .size p { color: var(--black_bg); padding: 5px 15px; font-size: 1.8rem; text-transform: uppercase; cursor: pointer; }
+.info-product .size { display: flex; align-items: center; margin-right: 20px; border: 1px solid rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; }
+.info-product .box-wapper-3-small img { width: 100%; max-width: 50px; cursor: pointer; }
+.info-product h3.title { text-transform: capitalize; }
+.info-product .box-left img { width: 100%; max-width: 390px; }
+.info-product .size p:hover {
+    background: black;
+    color: white;
+    border-radius: 3px;
+}
+.info-product .size p.active {
+    background: red;
+    color: white;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+.info-product .box-wapper-3-small img.active {
+    border: 1px solid #ff0000b0;
+    transition: 0.4s;
+    border-radius: 3px;
+}

@@ -1,0 +1,8 @@
+.carouzel { position: relative; top: 0px; left: 0px; min-height: 615px; }
+.carouzel .carouzel-item { position: absolute; top: 0px; left: 0px; display: none; }
+.carouzel .carouzel-item.active { display: block; animation: 4.5s ease-out 0s 1 normal none running slideMove; }
+.carouzel .carouzel-item img { width: 100%; }
+@keyframes slideMove { 
+  0% { opacity: 1; }
+  100% { opacity: 0.5; }
+}

@@ -1,0 +1,29 @@
+#sidebar-main { width: 290px; background: var(--black_bg); padding: 20px 0px; }
+#sidebar-main .logo { padding: 20px 0px; }
+#sidebar-main .logo img { display: block; margin: auto; width: 100%; max-width: 80%; }
+#sidebar-main .head-extra { display: flex; justify-content: space-evenly; align-items: center; margin: 15px 0px; }
+#sidebar-main .extra-item img { max-width: 35px; object-fit: cover; }
+#sidebar-main .nav { margin: 15px 0px; }
+#sidebar-main .nav-box { text-align: center; }
+#sidebar-main .nav-item a{color: #fff;}
+#sidebar-main .nav-item { padding: 15px 20px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.2rem; border-bottom: 1px solid rgba(255, 255, 255, 0.06); }
+#sidebar-main .nav-item:hover a {text-decoration: none; color: var(--green); cursor: pointer; text-decoration: underline; transition: all 0.4s ease 0s;  }
+.sidebar-warp { position: fixed; width: 290px; height: 100%;background: var(--black_bg);}
+.nav-item.subtitles::after { content: "hot"; position: relative; top: -10px; right: -5px; background: var(--red_subtitle); border-radius: 3px; text-transform: lowercase; padding: 2px; }
+.nav-item.subtitles:hover::after { color: var(--white_txt); text-decoration: none; }
+.phone-contact { display: flex; justify-content: center; align-items: center; }
+.phone-contact .phone-number { font-weight: 400; font-size: 1.6rem; padding: 0px 5px; letter-spacing: 0.5rem; }
+.socaiol { display: flex; justify-content: center; align-items: center; padding: 10px 0px; }
+.main-wapper { display: flex; }
+#main-content { flex: 1 1 0%; overflow: hidden; }
+.head-extra i {
+    color: #fff;
+    cursor: pointer;
+}
+.head-extra i:hover {
+    color: #ff0000e0;
+    font-size: 13px;
+    transition: .4s;
+    display: inline-block;
+}
+.head-extra a {color: white;}

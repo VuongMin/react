@@ -1,0 +1,15 @@
+.section-news .news-slider { width: 100%; max-width: 770px; }
+.section-news .slider-item { position: relative; }
+.section-news .slider-item img { width: 100%; }
+.section-news .content { position: absolute; bottom: 0px; padding: 15px 10px; background: rgba(255, 255, 255, 0.7); }
+.section-news h3.title { margin: 5px 0px; font-weight: 500; text-transform: uppercase; color: rgb(255, 255, 255); font-size: 2rem; background: rgb(59, 161, 162); display: inline-block; }
+.section-news p { color: rgba(0, 0, 0, 0.69); letter-spacing: 0.1rem; }
+.colection-news { display: flex; }
+.colection-news .list-news { flex: 1 1 0%; padding: 0px 20px; }
+.colection-news .list-news h4 { color: var(--black_bg); text-transform: uppercase; text-align: center; font-size: 1.7rem; font-weight: 400; letter-spacing: 0.3rem; }
+.colection-news .list-news-content { margin: 10px 0px; }
+.colection-news .list-news-item { display: flex; align-items: center; margin: 10px 0px; }
+.colection-news .list-news-item .content { position: unset; padding: 0px 10px; }
+.colection-news .list-news-item img { width: 100%; }
+.colection-news .list-news-item h4 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; width: 150px; margin: 5px 0px; }
+.colection-news .list-news-item .plud { color: var(--green); margin-top: 5px; }

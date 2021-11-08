@@ -1,0 +1,9 @@
+.colections { display: flex; margin: 0px 20px; padding: 20px 0px; }
+.colections .colections-item { padding: 0px 20px; width: 50%; }
+.colections .colections-item img { width: 100%; }
+.colections.full-width { margin: 0px; }
+.colections.full-width .colections-item:first-child { padding-left: 0px; }
+.colections.full-width .colections-item:last-child { padding-right: 0px; }
+.colections.full-width .list-products { display: flex; flex-wrap: wrap; margin-left: -5px; }
+.colections.full-width .list-products img { max-width: 280px; }
+.colections.full-width .list-products .product-item { padding: 5px; }
